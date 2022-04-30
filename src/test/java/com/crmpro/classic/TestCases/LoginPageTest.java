@@ -29,7 +29,7 @@ public class LoginPageTest extends LoginPage {
 		try {
 			TestUtils.startTcLogger("verifyLogin");
 			loginPage.login(username, password);
-			if (driver.getTitle().equalsIgnoreCase("CRMPRO")) {
+			if (driver.getTitle().equalsIgnoreCase("CRMPRO1")) {
 				Assert.assertTrue(true);
 				logger.info("-----verifyLogin Passed-----");
 
